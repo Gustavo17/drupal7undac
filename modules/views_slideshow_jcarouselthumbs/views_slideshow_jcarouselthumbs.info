@@ -1,0 +1,12 @@
+name = Views Slideshow: JCarousel Thumbs
+description = Adds a slideshow mode with JCarousel-based thumbnail navigation to Views Slideshows.
+dependencies[] = views_slideshow
+package = Views
+core = 6.x
+
+; Information added by drupal.org packaging script on 2013-10-19
+version = "7.x-2.x-dev"
+core = "7.x"
+project = "views_slideshow_jcarouselthumbs"
+datestamp = "1382165162"
+

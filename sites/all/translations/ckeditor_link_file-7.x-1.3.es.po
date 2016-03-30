@@ -1,0 +1,26 @@
+# Spanish translation of CKEditor Link File (7.x-1.3)
+# Copyright (c) 2013 by the Spanish translation team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: CKEditor Link File (7.x-1.3)\n"
+"POT-Creation-Date: 2013-09-10 04:21+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+msgid "User interface"
+msgstr "Interfaz de usuario"
+msgid "Download"
+msgstr "Descargar"
+msgid "File"
+msgstr "Archivo"
+msgid "URL"
+msgstr "URL"
+msgid "Files"
+msgstr "Archivos"
+msgid "File types"
+msgstr "Tipos de fichero"

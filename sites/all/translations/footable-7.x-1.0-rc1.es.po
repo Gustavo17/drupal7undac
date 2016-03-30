@@ -1,0 +1,28 @@
+# Spanish translation of FooTable (7.x-1.0-rc1)
+# Copyright (c) 2014 by the Spanish translation team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FooTable (7.x-1.0-rc1)\n"
+"POT-Creation-Date: 2014-09-24 09:22+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+msgid "Default"
+msgstr "Predeterminado"
+msgid "Large"
+msgstr "Grande"
+msgid "Views"
+msgstr "Vistas"
+msgid "Not found"
+msgstr "No encontrado"
+msgid "Medium"
+msgstr "Medio"
+msgid "Square"
+msgstr "Cuadrado"
+msgid "sort by @s"
+msgstr "ordenar por @s"

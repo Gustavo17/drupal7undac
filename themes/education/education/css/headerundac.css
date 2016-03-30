@@ -1,0 +1,71 @@
+.nav-undac,.content-logo, .slider-undac{
+	/*display:inline-block;
+	vertical-align: middle;
+	margin:none*/;
+/*	float:right;
+	width: 10%;
+	height: 100%;
+	background: red;*/
+	float:left;
+}
+.nav-undac{
+	height: 100%;
+	background: red;
+}
+	.nav-undac a{
+		display: block;
+		width: 100%;
+		font-size: 2em;
+		padding: .5em;
+	}
+.content-logo{
+	width: 10%;
+	height: 100%;
+	background: blue;
+}
+.slider-undac{
+	width: 75%;
+	height: 100%;
+	background: green;
+}
+.miclasedestacados{
+	background: #fff;
+    border: 1px solid #ddd0c7;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+/*CON ESTE CODIGO DESAPARECIENDO  EL TITULO DE NUESTRA PAGINA PRINCIPAL*/
+/*NUESTRO EJEMPLO BIENVENIDO A UNIVERSIDAD NACIONAL DANIEL ALCIDES*/
+.front h1#page-title {
+  display: none;
+}
+.views-field-field-image{
+	display: block;
+	float: left;
+    margin-right: 7px;
+    border-top: 1px solid #ddd0c7;
+}
+/*.views-field-field-image:hover{
+	border: 4px solid #549BBF;
+}*/
+.marcolegal ul li {
+	/*border-bottom: 1px solid black;*/
+    padding: 5px;
+
+}
+
+.ultimasnoticias .views-field-created{
+	padding: 3px 0 0 23px;
+}
+/*.miclasedestacados span.field-content{
+	  background: url(../images/ico-date-3.png) 0 1px no-repeat;
+	  padding: 3px 0 0 23px; 
+	  color: #77706b;
+	  margin-bottom: 10px;
+}*/
+
+.marcolegal ul{
+	list-style-image: url(../../../../misc/menu-leaf.png);
+    list-style-type: square;
+}
