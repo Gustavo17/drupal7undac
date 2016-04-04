@@ -11,13 +11,10 @@
     <div class="row">
       <div class="span12 clearfix">
         <div id="header" class="clearfix">
-          <?php if ($logo): ?>
-            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" id="logo">
-              <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-            </a>
-          <?php endif; ?>
 
-<!--           <div class="slider-undac">
+
+
+<!--    <div class="slider-undac">
             
           </div>
           <div class="nav-undac">
@@ -27,6 +24,29 @@
             <a href="">Sistem alum</a>
             <a href="">Mensaje</a>
           </div> -->
+    <div class="cont-header">
+    <div class="logo-header">
+      <div class="logo-img">
+          <?php if ($logo): ?>
+            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" id="logo">
+              <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+            </a>
+          <?php endif; ?>
+      </div>
+      <div class="text-undac">
+        UNIVERSIDAD NACIONAL DANIEL ALCIDES CARRION
+      </div>
+    </div>
+    <div class="bg-header">
+    </div>
+    <div class="nav-header">
+        <a href="http://intranet.undac.edu.pe" target="_blank"><i class="fa fa-male fa-2x" title="Intranet"></i><span class="linksundac"></span></a>
+        <a href="http://correo.undac.edu.pe"  target="_blank"><i class="fa fa-inbox fa-2x" title="Correo Institucional" ></i><span class="linksundac"></span></a>
+        <a  target="_blank" href="http://extranet.undac.edu.pe" title="Sistema Academico eUNDAC" class="menu-active3"><i class="fa fa-user fa-2x"></i> <span class="linksundac">Extranet</span></a>
+        <a href="http://extranet.undac.edu.pe" title="" target="_blank" title="Sistema Administrativo" ><i class="fa fa-users fa-2x"></i><span class="linksundac"></span></a>
+        <a href="http://correo.undac.edu.pe" target="_blank" title="Mensaje"><i class="fa fa-envelope-o fa-2x" ></i><span class="linksundac"></span></a>
+    </div>
+  </div>
           </div> <!-- /#secondary-menu -->
         </div>    
     </div>

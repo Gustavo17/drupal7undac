@@ -56,11 +56,13 @@ body { background: url(images/pattern.png) 0 0 #eee repeat; color:#2a2a2a; }
 #main-menu-wrapper li a:focus, 
 #main-menu-wrapper li a:hover, 
 #main-menu-wrapper li a:active {
-  background: #000;
+  /*background: #000;*/
+      background: #06F;
 }
 
 #main-menu-wrapper li a.active {
-  background: #0065FF;
+  /*background: #0065FF;*/
+  background: #06F;
   color:#fff;
 }
 
@@ -87,7 +89,10 @@ body { background: url(images/pattern.png) 0 0 #eee repeat; color:#2a2a2a; }
 
 #main-menu-wrapper .row { background: url(images/bg-left-nav.png) 0 0 no-repeat; }
 
-#main-menu-wrapper .span12 { background: url(images/bg-right-nav.png) 100% 0 no-repeat; }
+#main-menu-wrapper .span12 { 
+  /*background: url(images/bg-right-nav.png) 100% 0 no-repeat; */
+  background:#1659C6 100% 0 no-repeat;
+}
 
 #main-menu-wrapper .tb-megamenu .mega-nav > .active a,
 #main-menu-wrapper .tb-megamenu .dropdown-menu .mega-nav > .active a {

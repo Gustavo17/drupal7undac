@@ -69,3 +69,70 @@
 	list-style-image: url(../../../../misc/menu-leaf.png);
     list-style-type: square;
 }
+		.cont-header{
+			height: 150px;
+			/*background: #000;*/
+			margin: 0;
+			overflow: hidden;
+			margin-bottom: 5px;
+		}
+		.logo-header, .bg-header, .nav-header{
+			float:left;
+			height: 150px;
+			background: #fff;
+		}
+
+		.logo-header{
+			border-right: 2px solid #0A7EB9;
+			width: 30%;
+		}
+			.logo-img, .text-undac{
+				display: inline-block;
+				vertical-align: middle;
+			}
+			.logo-img{
+/*				background: url(../images/logo_undac.png);
+				background-size: 100% 100%;
+				background-repeat: no-repeat;
+				background-position: 1em*/;
+				height: 150px;
+				width:35%;
+			}
+			.text-undac{
+				color: #0A7EB9;
+				font-size: 1.5em;
+				text-align: center;
+				width:63%;
+			}
+
+		.bg-header{
+			background: url(../images/bg.jpg);
+			background-size: 100% 150%;
+			background-repeat: no-repeat;
+			height: 150px;
+			width: 69.8%;
+		}
+		.nav-header{
+			background: transparent;
+			position: absolute;
+			right: 0;
+			margin: 0;
+			padding: 0;
+			text-align: center;
+		}
+		.nav-header a{
+			background: #fff;
+			display: block;
+			/*padding: .37em 1em;*/
+			padding: .2em 1em;
+			text-decoration: none;
+			padding-bottom: 4px;
+		}
+			.nav-header a:hover{
+				background: #0A7EB9;
+				color: #fff;
+			}
+			
+		.linksundac{
+			display: none;
+		}

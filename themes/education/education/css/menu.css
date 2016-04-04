@@ -3,7 +3,7 @@
 }
 
 #main-menu-wrapper .row {
- background: url(../images/bg-left-nav.png) 0 0 no-repeat;
+ /*background: url(../images/bg-left-nav.png) 0 0 no-repeat;*/
   margin-left: -30px;
   padding: 0 32px 0 0;
 }
@@ -16,7 +16,8 @@
 }
 
 #main-menu-wrapper .region-main-menu {
-  background: #3b281c;
+ /* background: #3b281c;*/
+  background: #1659C6;
   height: 52px;
   padding-left: 10px;
 }
@@ -61,7 +62,8 @@
 #main-menu-wrapper li a:active {
   color: #fff;
   text-decoration: none;
-  background: #0c0703;
+  /*background: #0c0703;*/
+  background: #0066FF;
 }
 
 #main-menu-wrapper li a.active {
@@ -70,7 +72,8 @@
 }
 
 #main-menu-wrapper li.sfHover > a {
-  background: #0c0703;
+  /*background: #0c0703;*/
+  background: #0066FF;
   color: #fff;
 }
 
@@ -194,7 +197,8 @@
 }
 
 .tb-megamenu .nav li.dropdown.open > .dropdown-toggle {
-  background-color: #0c0703; 
+  /*background-color: #0c0703;*/
+  background-color:#0065FF; 
   color: #fff;
 }
 
