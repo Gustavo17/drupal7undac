@@ -100,9 +100,22 @@
 			}
 			.text-undac{
 				color: #0A7EB9;
-				font-size: 1.5em;
+				font-size: -0.3em;
 				text-align: center;
-				width:63%;
+				font-family: "oswaldregular";
+				width:64%;
+			    font-weight: bold;
+			}
+			.text-undac .nombre-undac1{
+					color: #0A7EB9;
+				    /* color: #868B9C; */
+				    border-bottom: 1px solid #868B9C;
+				    margin-bottom: 0;
+			}
+			.text-undac .nombre-undac{
+				    border-top: 1px solid #0A7EC1;
+				    color: #0A7EB9;
+				    margin-top: 1px;
 			}
 
 		.bg-header{
@@ -122,11 +135,14 @@
 		}
 		.nav-header a{
 			background: #fff;
-			display: block;
+			/*display: block;*/
 			/*padding: .37em 1em;*/
+			display: list-item;
 			padding: .2em 1em;
 			text-decoration: none;
-			padding-bottom: 4px;
+			padding-bottom: 8.2%;
+			padding-bottom:-moz-linear-gradient(top, #F4FA58, #FF0000); /
+			list-style: none;
 		}
 			.nav-header a:hover{
 				background: #0A7EB9;

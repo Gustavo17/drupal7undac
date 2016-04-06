@@ -34,7 +34,7 @@
           <?php endif; ?>
       </div>
       <div class="text-undac">
-        UNIVERSIDAD NACIONAL DANIEL ALCIDES CARRION
+        <h2 class="nombre-undac1">UNIVERSIDAD NACIONAL</h2><h2 class="nombre-undac">DANIEL ALCIDES CARRION</h2>
       </div>
     </div>
     <div class="bg-header">

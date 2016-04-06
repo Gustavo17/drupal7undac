@@ -24,14 +24,14 @@
   position: absolute;
   left: -10px;
   top: 3px;
-  z-index: 200;
+  /*z-index: 200;*/
 }
 
 #name-and-slogan {
   position: absolute;
   left: 235px;
   top: 20px;
-  z-index: 200; 
+ /* z-index: 200; */
 }
 
 #name-and-slogan a {
@@ -449,8 +449,11 @@
 
 .node .field-name-field-image img,
 #block-system-main .view .views-row .views-field-field-image img {
-  border: 4px solid #ddd0c7;
-  max-width:98.5%;
+/*  border: 4px solid #ddd0c7;
+  max-width:98.5%;*/
+    border: 6px solid #FFFFFF;
+    max-width: 98.5%;
+    box-shadow: 0px 0px 1px;
 }
 
 .views-field-view-node a {
